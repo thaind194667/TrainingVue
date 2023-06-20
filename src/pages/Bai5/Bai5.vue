@@ -52,7 +52,7 @@ export default defineComponent({
 
 <template>
   <Header hwCount="5"/>
-  <TextComponent @confirmAdd="addItem" />
+  <text-component @confirmAdd="addItem" />
   <br />
   <br />
   <TableComponent :data="listData" @confirmDelete="deleteItem"/>
